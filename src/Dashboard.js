@@ -43,56 +43,56 @@ function Dashboard() {
               <a className="nav-link" href="charts.html">
                 <img src="img/pie.png" width="20%" height="20%" />
                 {/* <img src="img/pie.svg" /> */}
-                <span className="text-black">Dashboard</span>
+                <span className="ml-3 text-black">Dashboard</span>
               </a>
             </div>
 
             <div className="nav-item">
               <a className="nav-link" href="charts.html">
                 <img src="img/Group.svg" />
-                <span className="text-black ">Leaderboard</span>
+                <span className="ml-3 text-black ">Leaderboard</span>
               </a>
             </div>
 
             <div className="nav-item">
               <a className="nav-link" href="charts.html">
                 <img src="img/shopping-cart.svg" />
-                <span className="text-black">Order</span>
+                <span className="ml-3 text-black">Order</span>
               </a>
             </div>
 
             <div className="nav-item">
               <a className="nav-link" href="charts.html">
                 <img src="img/shop.svg" />
-                <span className="text-black">Products</span>
+                <span className="ml-3 text-black">Products</span>
               </a>
             </div>
 
             <div className="nav-item">
               <a className="nav-link" href="charts.html">
                 <img src="img/report.svg" />
-                <span className="text-black">Sales Report</span>
+                <span className="ml-3 text-black">Sales Report</span>
               </a>
             </div>
 
             <div className="nav-item">
               <a className="nav-link" href="charts.html">
                 <img src="img/chat.svg" />
-                <span className="text-black">Message</span>
+                <span className="ml-3 text-black">Message</span>
               </a>
             </div>
 
             <div className="nav-item">
               <a className="nav-link" href="charts.html">
                 <img src="img/settings.svg" />
-                <span className="text-black">Settings</span>
+                <span className="ml-3 text-black">Settings</span>
               </a>
             </div>
 
-            <div className="nav-item">
-              <a className="nav-link" href="charts.html">
+            <div class="nav-item">
+              <a class="nav-link">
                 <img src="img/log_out.svg" />
-                <span className="text-black">Sign Out</span>
+                <span class="ml-3 text-black">Sign Out</span>
               </a>
             </div>
           </ul>
@@ -122,7 +122,7 @@ function Dashboard() {
 
                 {/*  <!-- Topbar Search --> */}
                 <form className="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                  <div className="input-group">
+                  <div className="mx-4 input-group">
                     <div className="input-group-append">
                       <button className="btn btn-white" type="button">
                         <i
@@ -133,7 +133,7 @@ function Dashboard() {
                     </div>
                     <input
                       type="text"
-                      className="form-control bg-red border-0 small"
+                      className=" form-control bg-red border-0 small"
                       placeholder="Search for..."
                       aria-label="Search"
                       aria-describedby="basic-addon2"
@@ -154,7 +154,7 @@ function Dashboard() {
                       aria-haspopup="true"
                       aria-expanded="false"
                     >
-                      <div className="notification-icon">
+                      <div className="mx-4 notification-icon">
                         <i
                           className="far fa-bell fa-fw fa-lg"
                           style={{ color: "yellow", position: "relative" }}
@@ -193,7 +193,7 @@ function Dashboard() {
                         </li>
                         {/* Add more <li> elements as needed */}
                       </ul>
-                      <img src="img/down.svg" />
+                      <img className="mr-2" src="img/down.svg" />
                     </a>
                     {/*  <!-- Dropdown - User Information --> */}
                     <div
@@ -230,86 +230,11 @@ function Dashboard() {
 
               {/* <!-- Begin Page Content --> */}
               <div className="container-fluid">
-                {/*  <!-- Page Heading --> */}
-                {/* <div className="d-sm-flex align-items-center justify-content-between mb-4">
-                                    <h1 className="h3 mb-0 text-gray-800">Dashboard</h1>
-                                    <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                        className="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
-                                </div> */}
-
-                {/*  <!-- Content Row --> */}
-
                 {/*   <!-- Content Row --> */}
                 <div className="row">
                   {/*   <!-- Content Column --> */}
                   <div className="col-lg-6 mb-4">
                     {/* <!-- Color System --> */}
-                    {/* <div className="row">
-                                            <div className="col-lg-6 mb-4">
-                                                <div className="card bg-primary text-white shadow">
-                                                    <div className="card-body">
-                                                        primary
-                                                        <div className="text-white-50 small">#4e73df</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 mb-4">
-                                                <div className="card bg-success text-white shadow">
-                                                    <div className="card-body">
-                                                        Success
-                                                        <div className="text-white-50 small">#1cc88a</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 mb-4">
-                                                <div className="card bg-info text-white shadow">
-                                                    <div className="card-body">
-                                                        Info
-                                                        <div className="text-white-50 small">#36b9cc</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 mb-4">
-                                                <div className="card bg-warning text-white shadow">
-                                                    <div className="card-body">
-                                                        Warning
-                                                        <div className="text-white-50 small">#f6c23e</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 mb-4">
-                                                <div className="card bg-danger text-white shadow">
-                                                    <div className="card-body">
-                                                        Danger
-                                                        <div className="text-white-50 small">#e74a3b</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 mb-4">
-                                                <div className="card bg-secondary text-white shadow">
-                                                    <div className="card-body">
-                                                        Secondary
-                                                        <div className="text-white-50 small">#858796</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 mb-4">
-                                                <div className="card bg-red text-white shadow">
-                                                    <div className="card-body">
-                                                        red
-                                                        <div className="text-white-50 small">#f8f9fc</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 mb-4">
-                                                <div className="card bg-dark text-white shadow">
-                                                    <div className="card-body">
-                                                        Dark
-                                                        <div className="text-white-50 small">#5a5c69</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> */}
                   </div>
                 </div>
               </div>

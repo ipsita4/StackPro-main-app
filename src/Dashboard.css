@@ -1,22 +1,24 @@
-.a1
-{
-    width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100";
+.a1 {
+  width: 50% " aria-valuenow=" 50 " aria-valuemin=" 0 " aria-valuemax=" 100
+    ";
 }
 .a2
 {
-    width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100";
+    width: 20%" aria-valuenow= "20" aria-valuemin= "0" aria-valuemax=
+    "100";
 }
-.a3
-{
-    width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100";
+.a3 {
+  width: 40% " aria-valuenow=" 40 " aria-valuemin=" 0 " aria-valuemax=" 100
+    ";
 }
 .a4
 {
-    width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100";
+    width: 80%" aria-valuenow= "80" aria-valuemin= "0" aria-valuemax=
+    "100";
 }
-.a5
-{
-    width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100";
+.a5 {
+  width: 100% " aria-valuenow=" 100 " aria-valuemin=" 0 " aria-valuemax=" 100
+    ";
 }
 .a6
 {
@@ -24,36 +26,53 @@
 }
 .a7
 {
-    width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100";
+    width: 60%" aria-valuenow= "60"
+    aria-valuemin= "0" aria-valuemax= "100";
 }
 .toggled {
-    overflow: visible;
-    width: 6.5rem!important;
+  overflow: visible;
+  width: 6.5rem !important;
 }
 .toggled1 {
-    width: 0!important;
-    overflow: hidden;
+  width: 0 !important;
+  overflow: hidden;
 }
 
 .text-black {
-    color: black; /* Set the text color to black */
-  }
+  color: black; /* Set the text color to black */
+}
 /* Define the style for the round and yellow dot notification */
 /* Define the style for the round and yellow dot notification */
 .notification-icon {
-    display: flex; /* Use flex layout */
-    align-items: center; /* Vertically align content */
-  }
-  
-  /* Define the style for the round and yellow dot notification */
+  display: flex; /* Use flex layout */
+  align-items: center; /* Vertically align content */
+}
+
+/* Define the style for the round and yellow dot notification */
 /* Define the style for the round and red dot notification */
 .dot-notification {
-    width: 8px; /* Adjust the size if needed */
-    height: 8px; /* Adjust the size if needed */
-    background-color: red; /* Set the color to red */
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-  
+  width: 8px; /* Adjust the size if needed */
+  height: 8px; /* Adjust the size if needed */
+  background-color: red; /* Set the color to red */
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.clicked {
+  background-color: rgb(81, 72, 209); /* Change this to the desired color */
+  /* Add any other styling you want for the clicked state */
+}
+.nav-item {
+  background-color: white;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background-color: lightgray;
+}
+
+.nav-item:active {
+  background-color: rgb(27, 56, 223);
+}
