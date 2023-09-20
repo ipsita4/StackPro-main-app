@@ -112,19 +112,24 @@ function Dashboard() {
                 >
                   <i className="fa fa-bars"></i>
                 </button>
-                
-                <span className="text-black" style={{ fontWeight: 'bold',fontSize:'20px' }}>Dashboard</span>
 
+                <span
+                  className="text-black"
+                  style={{ fontWeight: "bold", fontSize: "20px" }}
+                >
+                  Dashboard
+                </span>
 
                 {/*  <!-- Topbar Search --> */}
                 <form className="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                   <div className="input-group">
-                  <div className="input-group-append">
-                      
-                  <button className="btn btn-white" type="button">
-                        <i className="fas fa-search fa-sm" style={{ color: 'blue' }}></i>
+                    <div className="input-group-append">
+                      <button className="btn btn-white" type="button">
+                        <i
+                          className="fas fa-search fa-sm"
+                          style={{ color: "blue" }}
+                        ></i>
                       </button>
-                      
                     </div>
                     <input
                       type="text"
@@ -133,7 +138,6 @@ function Dashboard() {
                       aria-label="Search"
                       aria-describedby="basic-addon2"
                     />
-                   
                   </div>
                 </form>
 
@@ -151,16 +155,14 @@ function Dashboard() {
                       aria-expanded="false"
                     >
                       <div className="notification-icon">
-  <i className="far fa-bell fa-fw fa-lg" style={{ color: 'yellow', position: 'relative' }}>
-    <span className="dot-notification"></span>
-  </i>
-</div>
-
-
-
+                        <i
+                          className="far fa-bell fa-fw fa-lg"
+                          style={{ color: "yellow", position: "relative" }}
+                        >
+                          <span className="dot-notification"></span>
+                        </i>
+                      </div>
                     </a>
-                    
-                   
                   </li>
 
                   {/* <!-- Nav Item - User Information --> */}
